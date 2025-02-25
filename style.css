@@ -1,0 +1,84 @@
+body{
+    display: grid;
+    background-image: url(./calendar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+#container{
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(./gavi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    
+}
+
+.n1{
+  border-radius: 10px 10px 0 0;
+  color: WHITE;   
+  height: 100%;
+  background-color: rgba(38, 12, 12, 0.4);
+  
+}
+
+#texto{
+  margin: 0;
+  margin-top: 180px;
+  
+}
+
+#texto2{
+ margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+  body{
+    background-image: url(./calendar\ 2.jpg);
+  }
+
+  #container{
+    width: 90%;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 990px){
+  body{
+    background-image: url(./calendar\ 3.jpg);
+  }
+
+  #container{
+    width: 90%;
+    height: 700px;
+  }
+}
