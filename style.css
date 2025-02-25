@@ -4,7 +4,6 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   
 }
 
 #container{
@@ -21,7 +20,6 @@ body{
     padding: 0;
     display: grid;
     grid-template-rows: 1fr;
-    
 }
 
 .n1{
@@ -29,36 +27,16 @@ body{
   color: WHITE;   
   height: 100%;
   background-color: rgba(38, 12, 12, 0.4);
-  
 }
 
 #texto{
   margin: 0;
   margin-top: 180px;
-  
 }
 
 #texto2{
- margin: 0;
-
+  margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 1200px){
@@ -82,3 +60,4 @@ body{
     height: 700px;
   }
 }
+
